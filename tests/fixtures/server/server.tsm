@@ -1,0 +1,7 @@
+{
+  "name": "jack.server",
+  "typescript": {
+    "src": ["**/*.ts", "!**/*.d.ts"],
+    "parentModule": "jack"
+  }
+}
