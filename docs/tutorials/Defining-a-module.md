@@ -1,1 +1,1 @@
-Wait for it
+Checkout the api for [Module Config](http://theblacksmithhq.com/tsm/docs/ModuleConfig.html)

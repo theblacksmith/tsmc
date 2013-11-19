@@ -1,3 +1,4 @@
-- [Home][Home]
-- [Quick Start][Quick-Start]
-- [Defining a Module][Defining-a-module]
+- [Home](Home)
+- [Quick Start](Quick-Start)
+- [Defining a Module](Defining-a-module)
+- [API](http://theblacksmithhq.com/tsm/docs/)
