@@ -1,4 +1,0 @@
-#!/bin/bash
-
-tsc lib/tsm.ts --out lib/tsm.js -d -t ES5
-tsc main.ts -m commonjs -t ES5

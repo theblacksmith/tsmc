@@ -1,0 +1,38 @@
+{
+	"tags":
+	{
+		"allowUnknownTags" : true
+	},
+	"plugins":[
+		 "plugins/markdown"
+		,"./tsdoc/template/plugins/TSDoc.js"
+	],
+	"opts":
+	{
+		"template"	:"./tsdoc/template",
+		"recurse"	:"true"
+	},
+	"templates" : {
+		"cleverLinks"     : true,
+		"monospaceLinks"  : true,
+		"excludeTutorials": "_Sidebar"
+	},
+	"source":
+	{
+		"includePattern": "\\.ts$"
+	},
+	"markdown"  : {
+		"parser"   : "gfm",
+		"hardwrap" : true
+	},
+	"tsdoc":{
+		"source"		  : "lib/tsm/",
+		"destination"	: "docs/",
+		"tutorials"		: "docs/tutorials",
+		"systemName"	: "TSM",
+		"footer"		  : "<link rel='stylesheet' href='styles/custom.css'/>",
+		"copyright"		: "TSM Copyright © 2013 TheBlacksmith - Licensed under MIT License",
+		"outputSourceFiles" : true,
+		"commentsOnly": true
+	}
+}

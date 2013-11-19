@@ -1,0 +1,6 @@
+[submodule "tsdoc"]
+	path = tsdoc
+	url = https://github.com/theblacksmith/TSDoc.git
+[submodule "docs/tutorials"]
+	path = docs/tutorials
+	url = https://github.com/theblacksmith/tsm.wiki.git

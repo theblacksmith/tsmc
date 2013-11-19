@@ -1,0 +1,5 @@
+eclipse.preferences.version=1
+excluded=node_modules//*
+included=//*.jjs\://*.js\://*.jshintrc\://*.json\://*.mjs\://*.njs\://*.pjs
+options=laxcomma\:true
+projectSpecificOptions=true

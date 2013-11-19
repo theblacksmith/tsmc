@@ -1,100 +1,141 @@
-/// <reference path="../typings.ts" />
-
-var _ = require("underscore");
+/// <reference path="../../typings/all.d.ts" />
 
 enum CompilationTarget { ES3, ES5 }
 
-enum ModuleKind { AMD, CommonJS }
+enum ModuleKind { AMD, CommonJS, None }
 
 class CompilationOptions {
   /**
-   * Allow 'bool' as a synonym for 'boolean'
+   * @member CompilationOptions#allowbool
+   * @summary Allow 'bool' as a synonym for 'boolean'
    * @default false
    **/
   allowbool: boolean;
 
   /**
-   * Allow 'module(...)' as a synonym for 'require(...)'
+   * @member CompilationOptions#allowimportmodule
+   * @summary Allow 'module(...)' as a synonym for 'require(...)'
    * @default false
    **/
   allowimportmodule: boolean;
 
   /**
-   * Generates corresponding .d.ts file
+   * @member CompilationOptions#declaration
+   * @summary Generates corresponding .d.ts file
    * @default true
    **/
   declaration: boolean;
 
   /**
-   * Specifies the location where debugger should locate map files instead of generated locations.
+   * @member CompilationOptions#mapRoot
+   * @summary Specifies the location where debugger should locate map files instead of generated locations.
    **/
   mapRoot: string;
 
-  /** Specify module code generation: ModuleKind.CommonJS or ModuleKind.AMD **/
+  /** 
+   * @member CompilationOptions#moduleKind
+   * @summary Specify module code generation: ModuleKind.CommonJS, ModuleKind.AMD, ModuleKind.None
+   * @default ModuleKind.None
+   **/
   moduleKind: ModuleKind;
 
-  /** Warn on expressions and declarations with an implied 'any' type. **/
+  /**
+   * @member CompilationOptions#noResolve
+   * @summary Warn on expressions and declarations with an implied 'any' type.
+   * @default false
+   **/
   noImplicitAny: boolean;
 
   /**
-   * Skip resolution and preprocessing
+   * @member CompilationOptions#
+   * @summary Skip resolution and preprocessing
    * @default false
    **/
   noResolve: boolean;
 
   /**
-   * Concatenate and emit output to single file.
-   * @default [ModuleConfig#parentModuleName]{@linkcode parentModuleName}-[ModuleConfig#name]{@linkcode name}.d.ts
+   * @member CompilationOptions#out
+   * @summary Concatenate and emit output to single file.
+   *
+   * If none is specified, ModuleConfig will set it to 
+   * [ModuleConfig#parentModuleName]{@linkcode parentModuleName}-[ModuleConfig#name]{@linkcode name}.ts
+   *
+   * @default [ModuleConfig#parentModuleName]{@linkcode parentModuleName}-[ModuleConfig#name]{@linkcode name}.ts
    **/
   out: string;
 
   /**
-   * Redirect output structure to the directory specified
+   * @member CompilationOptions#outDir
+   * @summary Redirect output structure to the directory specified
    *
    * NOTE: In TSM, you can specify both outDir and out. In that case every module compiled 
    * will be put in outDir directory but respecting the out option name
-   * 
    */
   outDir: string;
 
   /**
-   * Do not emit comments to output
+   * @member CompilationOptions#removeComments
+   * @summary Do not emit comments to output
    * @default false
    **/
   removeComments: boolean;
 
   /**
-   * Generates corresponding .map file
+   * @member CompilationOptions#sourcemap
+   * @summary Generates corresponding .map file
    * @default true
    */
   sourcemap: boolean;
 
   /**
-   *  Specifies the location where debugger should locate TypeScript files instead of source locations.
+   * @member CompilationOptions#sourceRoot
+   * @summary Specifies the location where debugger should locate TypeScript files instead of source locations.
    */
   sourceRoot: string;
 
   /**
-   * Specify ECMAScript target version: CompilationTarget.ES3 or CompilationTarget.ES5
+   * @member CompilationOptions#target
+   * @summary Specify ECMAScript target version: CompilationTarget.ES3 or CompilationTarget.ES5
    * @default CompilationTarget.ES5
    */
   target: CompilationTarget;
 
-  constructor(options: {}) {
-    _.extend(this, {
-      declaration: true,
-      sourcemap: true,
-      target: CompilationTarget.ES5
-    }, options);
+  static defaults = {
+    allowbool: false,
+    allowimportmodule: false,
+    declaration: true,
+    mapRoot: "",
+    moduleKind: ModuleKind.None,
+    noImplicitAny: false,
+    noResolve: false,
+    outDir: "",
+    removeComments: false,
+    sourcemap: true,
+    sourceRoot: ""
+  };
+
+  /**
+   * @constructor CompilationOptions
+   * @return CompilationOptions
+   */
+
+  /**
+   * @constructor CompilationOptions
+   * @param {object} options A hash of property values to be set.
+   * @return CompilationOptions
+   */
+  constructor(options?: any) {
+    _.extend(this, CompilationOptions.defaults, options || {});
   }
 
   public toArgs(): string {
     var args = [];
     var boolOptions = ["allowbool", "allowimportmodule", "declaration",
                       "noImplicitAny", "noResolve", "removeComments", "sourcemap"];
-
+    var _this = this;
+    
     _.each(boolOptions, function (opt) {
-      if (this[opt]) args.push("--" + opt);
+      if (_this[opt]) args.push("--" + opt);
     });
 
     if (this.mapRoot.trim()) args.push("--mapRoot " + this.mapRoot);
@@ -112,7 +153,9 @@ class CompilationOptions {
       args.push("--sourceRoot " + this.outDir);
 
     // always add
-    args.push("--moduleKind " + (this.moduleKind == ModuleKind.AMD ? "amd" : "commonjs"));
+    if(this.moduleKind != ModuleKind.None)
+      args.push("--moduleKind " + (this.moduleKind == ModuleKind.AMD ? "amd" : "commonjs"));
+
     args.push("--target " + (this.target == CompilationTarget.ES3 ? "ES3" : "ES5"));
 
     return args.join(" ");

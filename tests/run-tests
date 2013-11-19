@@ -1,3 +1,0 @@
-var tsm = require("../main");
-
-tsm.compile("./fixtures/server");

@@ -1,12 +1,30 @@
-/// <reference path="typings.ts" />
+/// <reference path="../typings/all.d.ts" />
 /// <reference path="tsm/compiler.ts" />
 
-class TSM {
-  static ConfigFileGlobPattern = "{package.json,*.tsm}";
+/**
+ * @module tsm
+ * @tutorial quick-start
+ */
 
-  compile(definitionFilePath) {
+require('source-map-support').install();
+var colors = require('colors');
+
+/**
+ * @class TSM
+ */
+class TSM {
+
+  static compile(definitionFilePath) {
     var c = new Compiler(process.cwd());
     return c.compile(definitionFilePath);
+  }
+
+  static enableDebug() {
+    Logger.enableDebug();
+  }
+
+  static setVerboseOn() {
+    Logger.setVerboseOn();
   }
 }
 

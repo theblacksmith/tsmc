@@ -1,0 +1,952 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"tsm",
+				"tsmFile"
+			],
+			[
+				"Compi",
+				"Compiler"
+			],
+			[
+				"TSM",
+				"TSModule"
+			],
+			[
+				"th",
+				"throw"
+			],
+			[
+				"js",
+				"json"
+			],
+			[
+				"find",
+				"findSubmodule"
+			],
+			[
+				"TSMo",
+				"TSModule"
+			],
+			[
+				"TSModule",
+				"TSMooduleRef"
+			],
+			[
+				"not",
+				"notify"
+			],
+			[
+				"process",
+				"concatProcess"
+			],
+			[
+				"concat",
+				"concatConf"
+			],
+			[
+				"compo",
+				"components"
+			],
+			[
+				"compon",
+				"component"
+			],
+			[
+				"Impo",
+				"Importer"
+			],
+			[
+				"par",
+				"partials"
+			],
+			[
+				"mat",
+				"match"
+			],
+			[
+				"st",
+				"start"
+			],
+			[
+				"parti",
+				"partial_name"
+			],
+			[
+				"partia",
+				"partial_content"
+			],
+			[
+				"str_re",
+				"str_replace"
+			],
+			[
+				"m",
+				"matches"
+			],
+			[
+				"for",
+				"foreach	foreach …"
+			],
+			[
+				"source",
+				"source_files"
+			],
+			[
+				"ima",
+				"image-url"
+			],
+			[
+				"view",
+				"viewName"
+			],
+			[
+				"pr",
+				"proposalId"
+			],
+			[
+				"impo",
+				"import"
+			],
+			[
+				"model",
+				"modelState"
+			],
+			[
+				"_",
+				"_this"
+			],
+			[
+				"ex",
+				"extends"
+			],
+			[
+				"Pro",
+				"Projects"
+			],
+			[
+				"to",
+				"total"
+			],
+			[
+				"Contro",
+				"controlGroup"
+			],
+			[
+				"control",
+				"controlGroup"
+			],
+			[
+				"text",
+				"textarea"
+			],
+			[
+				"service",
+				"serviceOrders"
+			],
+			[
+				"medi",
+				"medium"
+			],
+			[
+				"col",
+				"columns"
+			],
+			[
+				"im",
+				"image_tag"
+			],
+			[
+				"bor",
+				"border"
+			],
+			[
+				"border",
+				"border-radius"
+			],
+			[
+				"padd",
+				"padding"
+			],
+			[
+				"hover",
+				"hover_info"
+			],
+			[
+				"ca",
+				"carousel"
+			],
+			[
+				"curr",
+				"curr_res"
+			],
+			[
+				"html",
+				"html5"
+			],
+			[
+				"paddin",
+				"padding-left"
+			],
+			[
+				"win",
+				"window"
+			],
+			[
+				"inde",
+				"indexOf"
+			],
+			[
+				"in",
+				"index"
+			],
+			[
+				"and",
+				"andIndex"
+			],
+			[
+				"en",
+				"endPos"
+			],
+			[
+				"s",
+				"substring"
+			],
+			[
+				"con",
+				"content"
+			],
+			[
+				"ins",
+				"insertAt"
+			],
+			[
+				"index",
+				"indexOf"
+			],
+			[
+				"ind",
+				"index"
+			],
+			[
+				"var",
+				"_variables"
+			],
+			[
+				"impor",
+				"imported"
+			],
+			[
+				"inclue",
+				"include"
+			],
+			[
+				"En",
+				"Engine"
+			],
+			[
+				"su",
+				"super"
+			],
+			[
+				"debu",
+				"debug"
+			],
+			[
+				"real",
+				"real_file"
+			],
+			[
+				"debug",
+				"debug_level"
+			],
+			[
+				"poss",
+				"possible_files"
+			],
+			[
+				"boo",
+				"bootstrap-colorpicker"
+			],
+			[
+				"req",
+				"require"
+			],
+			[
+				"lo",
+				"load_paths"
+			],
+			[
+				"modul",
+				"modulesToLoad"
+			],
+			[
+				"modu",
+				"modulesToLoad"
+			],
+			[
+				"fu",
+				"function"
+			],
+			[
+				"lif",
+				"lifted"
+			],
+			[
+				"theb",
+				"theblacksmithhq"
+			],
+			[
+				"nav",
+				"navbar-inner"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "lib/tsm/moduleRef.ts",
+			"settings":
+			{
+				"buffer_size": 2411,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"contents": "/// <reference path=\"../typings.ts\" />\nvar _ = require(\"underscore\");\n",
+			"file": "lib/tsm/underscore-extd.ts",
+			"file_size": 0,
+			"file_write_time": 1383938670000000,
+			"settings":
+			{
+				"buffer_size": 70,
+				"line_ending": "Unix"
+			}
+		}
+	],
+	"build_system": "",
+	"command_palette":
+	{
+		"height": 187.0,
+		"selected_items":
+		[
+			[
+				"pro",
+				"Project: Save As"
+			],
+			[
+				"packa",
+				"Package Control: Install Package"
+			],
+			[
+				"pac",
+				"Package Control: List Packages"
+			],
+			[
+				"install",
+				"Package Control: Install Package"
+			],
+			[
+				"Packa",
+				"Package Control: Install Package"
+			]
+		],
+		"width": 449.0
+	},
+	"console":
+	{
+		"height": 125.0
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/hacking/numbers_dictionary.php",
+		"/projects/theblacksmith/tsm/main.ts",
+		"/projects/theblacksmith/tsm/lib/compiler.ts",
+		"/projects/theblacksmith/tsm/tsd-config.json",
+		"/Volumes/C/projects/Jack/Apsis/San/cadastros.aspx",
+		"/projects/Jack/Sparrow/source/Jack.Core/Domain/Identity.cs",
+		"/hacking/crack.sh",
+		"/projects/theblacksmith/tsm/lib/meta/TSModuleRef.ts",
+		"/projects/theblacksmith/tsm/lib/meta/TSModuleConfig.ts",
+		"/projects/theblacksmith/tsm/lib/meta/TSModule.ts",
+		"/projects/theblacksmith/tsm/package.json",
+		"/projects/theblacksmith/tsm/lib/docs/docs.ts",
+		"/projects/Jack/Sparrow/source/Web.UI/package.json",
+		"/projects/theblacksmith/tsm/lib/meta/ITSModuleConfig.ts",
+		"/projects/Jack/Sparrow/source/Web.UI/config/tasks/tsm/compiler.ts",
+		"/projects/Jack/Sparrow/source/Web.UI/src/app/common/jack/server/server.tsm",
+		"/projects/Jack/Sparrow/source/Web.UI/config/tasks/tsm/module-finder.js",
+		"/projects/Jack/Sparrow/source/Web.UI/src/app/common/jack/package.json",
+		"/projects/Jack/Sparrow/source/Web.UI/src/app/common/jack/ui/Notify.ts",
+		"/projects/Jack/Sparrow/source/Web.UI/src/app/common/jack/server/package.json",
+		"/projects/Jack/Sparrow/source/Web.UI/src/app/common/jack/ui/package.json",
+		"/projects/Jack/Sparrow/source/Web.UI/_test/jack/ajax/ErrorHandler.ts",
+		"/projects/Jack/Sparrow/source/Web.UI/_test/jack/ajax/jack.ajax.tsm",
+		"/projects/Jack/Sparrow/source/Web.UI/_test/jack/ui/Notify.ts",
+		"/projects/Jack/Sparrow/source/Web.UI/src/app/common/jack/ajax/ErrorHandler.ts",
+		"/projects/theblacksmith/typescript-compiler/.gitignore",
+		"/projects/Jack/Sparrow/source/Web.UI/node_modules/typescript-compiler-exposed/main.js",
+		"/projects/Jack/Sparrow/source/Web.UI/node_modules/typescript-compiler-exposed/package.json",
+		"/projects/Jack/Sparrow/source/Web.UI/config/tasks/typescript.js",
+		"/projects/Jack/Sparrow/source/Web.UI/_test/jack/ui/jack.ui.tsm",
+		"/projects/Jack/Sparrow/source/Web.UI/_test/jack/jack.tsm",
+		"/projects/Jack/Sparrow/source/Web.UI/_test/jack/server/messages/jack.server.messages.tsm",
+		"/projects/Jack/Sparrow/source/Web.UI/_test/jack/server/messages/ExceptionMessage.d.ts",
+		"/projects/Jack/Sparrow/source/Web.UI/_test/jack/server/messages/SuccessMessage.js",
+		"/projects/Jack/Sparrow/source/Web.UI/src/app/modules/projects/_projects.ts",
+		"/projects/Jack/Sparrow/source/Web.UI/_test/jack/server/module.js",
+		"/projects/Jack/Sparrow/source/Web.UI/src/app/modules/projects/projects.tsm",
+		"/projects/Jack/Sparrow/source/Web.UI/src/app/common/jack/jack.tsm",
+		"/Applications/Sublime Text 2.app/Contents/MacOS/Pristine Packages/JavaScript.sublime-package",
+		"/Users/svallory/Library/Application Support/Sublime Text 2/Packages/User/Plain text.sublime-settings",
+		"/Users/svallory/Library/Application Support/Sublime Text 2/Packages/User/JavaScript.sublime-settings",
+		"/Users/svallory/Library/Application Support/Sublime Text 2/Packages/User/Preferences.sublime-settings",
+		"/projects/Jack/Sparrow/source/Web.UI/src/app/modules/login/login.tpl.html.ts",
+		"/projects/Jack/Sparrow/source/Web.UI/_test/jack/server/messages/SuccessMessage.ts",
+		"/projects/Jack/Sparrow/source/Web.UI/src/app/common/Notify.ts",
+		"/projects/Jack/Sparrow/source/Web.UI/src/app/module.json",
+		"/projects/Jack/Sparrow/source/Web.UI/_test/jack/server/messages/exceptionMessage.ts",
+		"/projects/Jack/Sparrow/source/Web.UI/src/app/common/jack/server/messages/exceptionMessage.ts",
+		"/projects/Jack/Sparrow/source/Web.UI/src/app/common/jack/messages.ts",
+		"/projects/Jack/Sparrow/source/Web.UI/src/app/app.ts",
+		"/projects/Jack/Sparrow/source/Web.UI/src/app/common.d.ts",
+		"/projects/Jack/Sparrow/source/Web.UI/src/app/Sparrow.ts",
+		"/projects/Jack/Sparrow/source/Web.UI/src/app/modules/projects/module.ts",
+		"/projects/Jack/Sparrow/source/Web.UI/src/app/modules/projects/models.ts",
+		"/projects/Jack/Sparrow/source/Web.UI/src/app/modules/projects/IProjectsScope.ts",
+		"/projects/Jack/Sparrow/source/Web.UI/src/app/modules/projects/controller.ts",
+		"/projects/Jack/Sparrow/source/Web.UI/src/app/modules/projects/commands.ts",
+		"/projects/Jack/Sparrow/source/Web.UI/src/app/modules/projects.d.ts",
+		"/projects/Jack/Sparrow/source/Web.UI/src/app/typings/all.d.ts",
+		"/projects/Jack/Sparrow/source/Web.UI/built/app.d.ts",
+		"/projects/Jack/Sparrow/source/Web.UI/src/app/common/Jack.ts",
+		"/projects/Jack/Sparrow/source/Web.UI/src/app/common/common.ts",
+		"/projects/Jack/Sparrow/source/Web.UI/build/build/tmp/projects.js",
+		"/projects/Jack/Sparrow/source/Web.UI/build/tmp/projects.ts",
+		"/projects/Jack/Sparrow/source/Web.UI/src/app/modules/projects/projects.ts",
+		"/projects/Jack/Sparrow/source/Web.UI/src/app/_all.ts",
+		"/projects/Jack/Sparrow/source/Web.UI/build/tmp/common.ts",
+		"/projects/Jack/Sparrow/source/Web.UI/src/app/common/ModelCollection.ts",
+		"/projects/Jack/Sparrow/source/Web.UI/sparrow-ui.sublime-project",
+		"/projects/Jack/Sparrow/.gitignore",
+		"/projects/Jack/Sparrow/source/Web.UI/config/tasks/map-components.js",
+		"/projects/Jack/Sparrow/source/Web.UI/config/tasks/combine.js",
+		"/projects/Jack/Sparrow/tools/Seeder/CreateDatabase.sql",
+		"/projects/Jack/Sparrow/tools/Seeder/CreateUsersView.sql",
+		"/projects/Jack/Sparrow/tools/Seeder/Schema.sql",
+		"/projects/Jack/Sparrow/tools/Seeder/Data.Seed.vshost.exe.config",
+		"/projects/Jack/Sparrow/tools/Seeder/Data.Seed.exe.config",
+		"/projects/Jack/Sparrow/source/Web.UI/src/app/modules/projects/Proposal.ts",
+		"/projects/Jack/Sparrow/source/Web.UI/config/tasks/concat.js",
+		"/projects/Jack/Sparrow/source/Web.UI/src/app/common/underscore-extensions.ts",
+		"/projects/Jack/Sparrow/source/Web.UI/src/app/projects/module.ts",
+		"/projects/Jack/Sparrow/source/Web.UI/src/app/projects/ProposalsCtrl.ts",
+		"/projects/Jack/Sparrow/source/Web.UI/assets/js/projects/module.js",
+		"/projects/Jack/Sparrow/source/Web.UI/Gruntfile.js",
+		"/projects/Jack/Sparrow/source/Web.UI/node_modules/grunt-typescript/tasks/typescript.js",
+		"/projects/temp/yo-angular-typescript/Gruntfile.js",
+		"/projects/Jack/Sparrow/source/Web.UI/config/tasks/compass.js",
+		"/projects/Jack/Sparrow/source/Data.Seed/Seeder.cs",
+		"/projects/Jack/Sparrow/source/UI/Views/Person/_PersonForm.cshtml",
+		"/projects/Jack/Sparrow/source/UI/Views/Person/Index.cshtml",
+		"/projects/Jack/Sparrow/source/Web.UI/src/app/projects/views/ProposalForm.html",
+		"/projects/Jack/Sparrow/source/Web.UI/config/module.suffix",
+		"/projects/Jack/Sparrow/source/Web.UI/config/umd-module.suffix",
+		"/projects/Jack/Sparrow/source/Web.UI/src/app/typings/DefinitelyTyped/underscore/underscore.d.ts",
+		"/projects/Jack/Sparrow/source/Web.UI/src/app/app.js",
+		"/projects/Jack/Sparrow/source/Web.UI/src/app.ts",
+		"/projects/Jack/Sparrow/source/Web.UI/src/app/references.ts",
+		"/projects/Jack/Sparrow/source/Web.UI/src/scripts/_all.ts",
+		"/Users/svallory/Documents/Songs/algumas pessoas.txt",
+		"/projects/temp/yo-angular-typescript/node_modules/grunt-typescript/tasks/typescript.js",
+		"/projects/Jack/Sparrow/source/Web.UI/config/compass.rb",
+		"/Users/svallory/.rvm/gems/ruby-1.9.3-p448@global/gems/sass-import_once-0.1.2/lib/sass/import_once/importer.rb",
+		"/projects/Jack/Sparrow/source/Web.UI/src/sass/all.scss",
+		"/projects/Jack/Sparrow/source/Web.UI/src/sass/app.scss",
+		"/projects/Jack/Sparrow/source/Web.UI/config/build.config.js",
+		"/projects/Jack/Sparrow/source/Web.UI/config/tasks/copy.js",
+		"/projects/temp/yo-angular/Gruntfile.js",
+		"/projects/theblacksmith/sass-import_once/sass-import_once.gemspec",
+		"/projects/theblacksmith/sass-import_once/lib/sass/import_once/importer.rb",
+		"/projects/temp/yo-angular/package.json",
+		"/projects/theblacksmith/liftr/lib/liftr/importer_with_debug.rb",
+		"/projects/theblacksmith/handtest/config.rb",
+		"/projects/theblacksmith/liftr/lib/liftr/importer.rb",
+		"/projects/Jack/Sparrow/source/Web.UI/config/helpers.js",
+		"/projects/Jack/Sparrow/source/Web.UI/config/tasks/index.js",
+		"/projects/Jack/UI-at-FixCss-branch/Gruntfile.js",
+		"/projects/Jack/Sparrow/source/Web.UI/config/tasks/config-karma.js",
+		"/projects/Jack/Sparrow/source/Web.UI/config/tasks/karma.js",
+		"/projects/Jack/Sparrow/source/Web.UI/src/app/home/home.js",
+		"/projects/Jack/Sparrow/source/Web.UI/.bowerrc",
+		"/projects/temp/playing/app/common/plusOne/plusOne.js",
+		"/projects/temp/playing/app/app/common/directives/debugPanel/debugPanel.tpl.html.ts",
+		"/projects/Jack/Sparrow/source/Web.UI/src/app/about/about.js",
+		"/projects/Jack/Sparrow/source/Web.UI/src/app/login/login.ts",
+		"/projects/Jack/Sparrow/source/Web.UI/grunt/utils.js",
+		"/projects/Jack/Sparrow/source/Web.UI/config/bower.json",
+		"/projects/Jack/Sparrow/source/Web.UI/bower.json",
+		"/projects/Jack/Sparrow/source/Web.UI/config/karma/karma.conf.js"
+	],
+	"find":
+	{
+		"height": 35.0
+	},
+	"find_in_files":
+	{
+		"height": 93.0,
+		"where_history":
+		[
+			"/projects/theblacksmith/tsm",
+			"/projects/Jack/Sparrow/source/Web.UI/config/",
+			"/projects/Jack/Sparrow/source/Web.UI/config/tasks/",
+			"/projects/Jack/Sparrow/source/Web.UI/config/,/projects/Jack/Sparrow/source/Web.UI/Gruntfile.js",
+			"/projects/Jack/Sparrow/source/Web.UI/,-node_modules/*.*",
+			"/projects/Jack/Sparrow/source/Web.UI/,-/projects/Jack/Sparrow/source/Web.UI/node_modules/",
+			"/projects/Jack/Sparrow/source/Web.UI/",
+			"/projects/Jack/Sparrow/source/UI/app/themes/metronic/styles",
+			"/projects/Jack/Sparrow/source/UI/app/styles/themes/metronic",
+			"/projects/Jack/Sparrow/source/UI/app/",
+			"/projects/Jack/Sparrow/source/UI/",
+			"/projects/Jack/Sparrow/source/UI/app/styles",
+			"/projects/javascript/Sparrow",
+			"<open folders>",
+			"/projects/php/oeco/agenda",
+			"/Volumes/C/projects/Camiseteria/NFe/source/camiseteria2.0/Camiseteria.Infra",
+			"/Volumes/C/projects/Camiseteria/NFe/source/camiseteria2.0/Camiseteria.Domain",
+			"/Volumes/C/projects/Camiseteria/NFe/source",
+			"/Volumes/C/projects/Dojo/**/*.*",
+			"/Volumes/C/projects/Dojo/*",
+			"/Volumes/C/projects/Dojo",
+			"/Volumes/C/projects/Jack/Sparrow/source/*.cs",
+			"/Volumes/C/projects/Jack/Sparrow/*",
+			"/Volumes/C/projects/Jack/Sparrow",
+			"",
+			"/Volumes/Stuff/Projects/javascript/sass-kickstrap/Kickstrap/themes/",
+			"/Volumes/Stuff/Projects/javascript/sass-kickstrap/Kickstrap/themes/**/index.html",
+			"/Volumes/Stuff/Projects/javascript/sass-kickstrap/Kickstrap/themes/*/index.html",
+			"/Volumes/Stuff/Projects/javascript/sass-kickstrap/Kickstrap/themes/",
+			"/Volumes/Stuff/Projects/javascript/sass-kickstrap/Kickstrap/themes/*/*",
+			"",
+			".",
+			"kickstrap.scss",
+			"kickstrap.less",
+			""
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"SqlDataSource4",
+			"DropDownListNi",
+			"ITSModuleConfig",
+			"TSMooduleRef",
+			"tsmFilePattern",
+			"gree",
+			"_.",
+			"subtsmodulePath",
+			"modulePath",
+			"banne",
+			"pad_size",
+			"string",
+			"Server",
+			"sparrow.projects",
+			"App",
+			"App.Notify",
+			"Sparrow",
+			"///\\s*<reference\\s*path=['\"]\\w+[^'\"]*['\"]\\s*/>",
+			"///\\s*\\<",
+			"///\\s*\\<reference",
+			"\\/\\/\\/\\s*\\<reference",
+			"/\\/\\/\\/\\s*\\<reference",
+			"/\\/\\/\\/\\s*\\<reference\\s*path\\=['\"]\\w+[^'\"]*['\"]\\/\\>/",
+			"modu",
+			"join",
+			"._",
+			"unders",
+			"Services",
+			"Role",
+			"RolesAc",
+			"Role",
+			"RoleA",
+			"types",
+			"regist",
+			"dir",
+			"find_real_file",
+			"compass",
+			"karmac",
+			"karmacon",
+			"karmaconfig",
+			"ts:",
+			"jsFiles",
+			"compile_js",
+			"concat:",
+			".dest",
+			"html2js",
+			"template",
+			"dest",
+			"template",
+			"dest",
+			"karma/",
+			"templa",
+			"coffee",
+			"recess",
+			"less",
+			"ess",
+			"recess",
+			"html2js",
+			".dest",
+			"dest",
+			"type",
+			"module.prefix",
+			"build_",
+			"cp.",
+			"spawn",
+			"options",
+			"uid",
+			".tmp",
+			"app.path",
+			"imagemin",
+			"%=",
+			"'",
+			"yeoman.dist",
+			"yeoman.app",
+			"yeomanConfig",
+			"dev",
+			"sidebar",
+			"demo utils",
+			"Bordered",
+			"box-siz",
+			"-webkit-box-sizing: border-box;\n    -moz-box-sizing: border-box;\n    box-sizing: border-box;",
+			"google-m",
+			"(conten",
+			"main_file",
+			"url\\(\"?([\\./]+fonts/)([/\\w+\\-\\.]+)\"?\\)",
+			"url\\(\"?([\\./]+img/)([/\\w+\\-\\.]+)\"?\\)",
+			"img/",
+			"url\\(\"([\\./]+img/)([/\\w+\\-\\.]+)\"\\)",
+			"img/",
+			"url\\(\"([\\./]+img/)([/\\w+\\-\\.]+)\"\\)",
+			"url\\(\"([\\./]+img/)[\\w+\\-\\./]+\")",
+			"url\\(\"([\\./]+img/)ˆ\"+",
+			"url\\(\"([\\./]+img/)",
+			"url\\(\"([\\./]+img/)[ˆ\"]+",
+			"url\\(\"([\\./]+img/)[ˆ\"]+\\\"\\)",
+			"url\\(\"([\\./]+img/)[/\\w\\.]+\\\"\\)",
+			"url\\(\"([\\./]+img/)[/\\w\\.]+\"\\)",
+			"url\\(\"([\\./]+img/)[/\\w\\.]+\")",
+			"url\\(\"([\\./]+img/)[/\\w\\.\\-]+\")",
+			"url\\(\"([\\./]+img/)",
+			"url\\(\"([\\./]+img/)[/\\w]+\")",
+			"img/",
+			"url(\"../img",
+			"Crediário Automático",
+			"CREDIARIO AUTOM   ",
+			"TAR MAXICONTA MENS",
+			"CREDIT",
+			"DEBIT",
+			"SAQUE",
+			"CHECKING",
+			"desc",
+			"number",
+			"registerDirective",
+			"watch",
+			"watch:",
+			"autoprefixer",
+			"setGridSize",
+			"container-fluid",
+			"1200",
+			"../img",
+			"{,*/}",
+			"watch:",
+			"clean:",
+			"copyDependencies",
+			"copy:",
+			"copy:st",
+			"yeoman.dist",
+			"resolve"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			"TSModuleConfig",
+			"TSMooduleRef\nTSModuleRef",
+			"tsmGlobPattern",
+			"submoduleRef",
+			"tsmodulePath",
+			"heade",
+			"padSize",
+			"sparrow.projects",
+			"notify",
+			"SparrowCQRS",
+			"app.rootDir",
+			"\"",
+			"app.assetsPath",
+			"app.path",
+			"config",
+			"@include box-sizing(border-box);",
+			"main_file_content",
+			"theme-font(\"$2\")",
+			"theme-img(\"$2\")",
+			"Crediário Automático ",
+			"Crediário Automático",
+			"Tarifa Maxiconta Mensal",
+			"Credit",
+			"Debit",
+			"Saque",
+			"Checking",
+			"/assets/components/select2",
+			"**/",
+			"app.dist",
+			"appConfig",
+			"<%= app.path %>",
+			"sass-bootstrap",
+			"plugins/",
+			"src=\"assets/themes/metronic/plugins/",
+			"assets/themes/metronic/",
+			"src=\"http://sparrowtest.no-ip.org:81/",
+			"url('assets/vendor/select2/select2",
+			"url('assets/vendor/select2.png')",
+			"note",
+			"fbRef",
+			"",
+			"\"user\":",
+			"\"desc\"",
+			"\"time\"",
+			"'badge'",
+			"\"type\"",
+			"\"pic\"",
+			"\"phases\"",
+			"\"name\"",
+			"\"",
+			"",
+			"expense-",
+			"\"",
+			"popover",
+			"  ",
+			"../assets/img",
+			"/assets/css",
+			"",
+			"\", :",
+			"=>\"",
+			"\"\\#\"",
+			"=>",
+			"\", :",
+			"\\t",
+			"Width768",
+			"Width1200",
+			"GutterWidth768",
+			"gridGutterWidth1200",
+			"fluidGridGutterWidth1200",
+			"",
+			">",
+			"<",
+			"bootstrap-sass.css",
+			".scss",
+			"Cobranca",
+			"cobranca",
+			"Sales",
+			"  ",
+			"oeco.org.br",
+			"FK__nfe_items__nfes",
+			"imposto_ICMS_pBCop",
+			"total_",
+			"imposto_ICMS",
+			"imposto_PIS",
+			"imposto_COFINS",
+			"COFINS",
+			"Dojo",
+			"\"char\"",
+			"prod_indTot",
+			"",
+			" ",
+			"ScalarProperty Name=\"NF\"",
+			"\"nfe_items\"",
+			"Camiseteria.Domain.Sales.Store.nfe_items",
+			"Camiseteria.Domain.Sales.Store.nfes",
+			"\"nfes\"",
+			"cobranca_",
+			"\"https://raw.github.com/theblacksmith/sass-bootswatch/gh-pages/$1/_$2.scss\"",
+			"https://raw.github.com/theblacksmith/sass-bootswatch/gh-pages/$1/_$2.scss\"",
+			"https://raw.github.com/theblacksmith/sass-bootswatch/gh-pages/$1/_variables.scss\"",
+			"',\n",
+			"blue",
+			"adjust-hue",
+			"@include border-radius",
+			"imported",
+			"@include clearfix();",
+			"@include border-radius",
+			"\n      ",
+			".icon-$1$2{ @include icon-$1(); }",
+			"",
+			"; }}",
+			"{ content:",
+			"&:before { ",
+			"@mixin icon",
+			"@mixin ",
+			"",
+			"@mixin icon-",
+			"",
+			"\\n",
+			"\\n ",
+			"",
+			"theblacksmithhq.com",
+			"sass",
+			"_variables.scss",
+			"_bootswatch.scss",
+			"sass-bootswatch.theblacksmith.com/",
+			"<a target=\"_blank\" href=\"_bootswatch.scss\">_bootswatch.scss</a>",
+			"<a target=\"_blank\" href=\"_variables.scss\">_variables.scss</a>"
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "lib/tsm/moduleRef.ts",
+					"settings":
+					{
+						"buffer_size": 2411,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								210,
+								173
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/TypeScript/TypeScript.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 17.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "lib/tsm/underscore-extd.ts",
+					"settings":
+					{
+						"buffer_size": 70,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								70,
+								70
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/TypeScript/TypeScript.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 34.0
+	},
+	"input":
+	{
+		"height": 31.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.exec":
+	{
+		"height": 201.0
+	},
+	"replace":
+	{
+		"height": 64.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+			[
+				"",
+				"/Volumes/C/projects/Camiseteria/Lounge/Source/altera_endereco.aspx"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 500.0,
+		"selected_items":
+		[
+		],
+		"width": 380.0
+	},
+	"show_minimap": false,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 237.0,
+	"status_bar_visible": true
+}

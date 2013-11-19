@@ -1,0 +1,14 @@
+{
+	"folders":
+	[
+		{
+			"path": "/projects/theblacksmith/tsm",
+      "folder_exclude_patterns": [ "node_modules"],
+      "file_exclude_patterns": [ "lib/*.js", "lib/*.js.map", "lib/tsm/*.js", "lib/tsm/*.js.map"]
+		}
+	],
+  "settings": {
+    "tab_size": 2,
+    "translate_tabs_to_spaces": true
+  }
+}
