@@ -1,7 +1,7 @@
 #!/usr/bin/env node
 
 /**
- * TSM command line tool
+ * tsmc command line tool
  *
  * @todo Add an init command
  */

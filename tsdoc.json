@@ -26,12 +26,12 @@
 		"hardwrap" : true
 	},
 	"tsdoc":{
-		"source"		  : "lib/tsm/",
+		"source"		  : "lib/tsmc/",
 		"destination"	: "docs/",
 		"tutorials"		: "docs/tutorials",
-		"systemName"	: "TSM",
+		"systemName"	: "TSMC",
 		"footer"		  : "<link rel='stylesheet' href='styles/custom.css'/>",
-		"copyright"		: "TSM Copyright © 2013 TheBlacksmith - Licensed under MIT License",
+		"copyright"		: "TSMC Copyright © 2013 TheBlacksmith - Licensed under MIT License",
 		"outputSourceFiles" : true,
 		"commentsOnly": true
 	}

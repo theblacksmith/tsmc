@@ -1,5 +1,5 @@
 /// <reference path="../typings/mocha.d.ts" />
-/// <reference path="../lib/tsm/CLASS_TO_TEST.ts" />
+/// <reference path="../lib/tsmc/CLASS_TO_TEST.ts" />
 
 var chai = require('chai')
   , expect = chai.expect

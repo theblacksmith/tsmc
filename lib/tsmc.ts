@@ -1,5 +1,5 @@
 /// <reference path="../typings/all.d.ts" />
-/// <reference path="tsm/compiler.ts" />
+/// <reference path="tsmc/compiler.ts" />
 
 /**
  * @module tsm
@@ -10,9 +10,9 @@ require('source-map-support').install();
 var colors = require('colors');
 
 /**
- * @class TSM
+ * @class TSMC
  */
-class TSM {
+class TSMC {
 
   static compile(definitionFilePath) {
     var c = new Compiler(process.cwd());
@@ -34,8 +34,8 @@ declare var define;
 // see https://github.com/umdjs/umd
 if (typeof module === "object" && module.exports) {
   // CommonJS (Node)
-  module.exports = TSM;
+  module.exports = TSMC;
 } else if (typeof define === "function" && define.amd) {
   // AMD
-  define(function () { return TSM; });
+  define(function () { return TSMC; });
 }

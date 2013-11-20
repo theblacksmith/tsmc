@@ -1,5 +1,5 @@
 /// <reference path="../typings/for-tests.d.ts" />
-/// <reference path="../lib/tsm/moduleRef.ts" />
+/// <reference path="../lib/tsmc/moduleRef.ts" />
 
 var path = require('path');
 var chai = require('chai')

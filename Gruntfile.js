@@ -15,8 +15,8 @@ module.exports = function(grunt) {
 
     typescript: {
       lib: {
-        src: ['lib/tsm.ts', 'lib/**/*.ts', "!lib/**/*.d.ts"],
-        dest: 'lib/tsm.js',
+        src: ['lib/tsmc.ts', 'lib/**/*.ts', "!lib/**/*.d.ts"],
+        dest: 'lib/tsmc.js',
         options: {
           //module: 'commonjs', //or commonjs
           target: 'es5', //or es3

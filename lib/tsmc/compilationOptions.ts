@@ -68,7 +68,7 @@ class CompilationOptions {
    * @member CompilationOptions#outDir
    * @summary Redirect output structure to the directory specified
    *
-   * NOTE: In TSM, you can specify both outDir and out. In that case every module compiled 
+   * NOTE: In TSMC, you can specify both outDir and out. In that case every module compiled 
    * will be put in outDir directory but respecting the out option name
    */
   outDir: string;

@@ -9,6 +9,6 @@ class Docs {
   static link(name: string, page?: string) {
     if(arguments.length == 1)
       page = name;
-    return name + " >> ".green + "https://github.com/theblacksmith/tsm/wiki/" + page.replace(' ', '-');
+    return name + " >> ".green + "https://github.com/theblacksmith/tsmc/wiki/" + page.replace(' ', '-');
   }
 }

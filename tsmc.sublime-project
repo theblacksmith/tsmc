@@ -2,9 +2,9 @@
 	"folders":
 	[
 		{
-			"path": "/projects/theblacksmith/tsm",
+			"path": "/projects/theblacksmith/tsmc",
       "folder_exclude_patterns": [ "node_modules"],
-      "file_exclude_patterns": [ "lib/*.js", "lib/*.js.map", "lib/tsm/*.js", "lib/tsm/*.js.map"]
+      "file_exclude_patterns": [ "lib/*.js", "lib/*.js.map", "lib/tsmc/*.js", "lib/tsmc/*.js.map"]
 		}
 	],
   "settings": {

@@ -16,3 +16,4 @@ node_modules
 .nide
 .DS_Store
 *.sublime-workspace
+.settings

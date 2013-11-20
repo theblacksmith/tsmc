@@ -9,7 +9,7 @@ var minimatch = require("minimatch");
 var path = require("path");
 
 enum ModuleRefType {
-  TSM,
+  TSMC,
   PACKAGE
 }
 
@@ -79,7 +79,7 @@ class ModuleRef {
         location = path.join(location, ModuleRef.findConfigFile(name, location));
       }
 
-      var ref = new ModuleRef(name, location, _.endsWith(location, ".tsm") ? ModuleRefType.TSM : ModuleRefType.PACKAGE);
+      var ref = new ModuleRef(name, location, _.endsWith(location, ".tsm") ? ModuleRefType.TSMC : ModuleRefType.PACKAGE);
     }
     catch(err)
     {

@@ -8,7 +8,7 @@ var logger = Logger;
 require("colors");
 
 enum ConfigFileType {
-  TSM,
+  TSMC,
   PACKAGE
 }
 
@@ -198,7 +198,7 @@ class ModuleConfig
 
   private getConfigFormat(path) {
     if(_(path).endsWith(".tsm"))
-      return ConfigFileType.TSM;
+      return ConfigFileType.TSMC;
 
     if(_(path).endsWith(".json"))
       return ConfigFileType.PACKAGE;

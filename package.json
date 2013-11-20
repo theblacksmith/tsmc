@@ -1,15 +1,15 @@
 {
-  "name": "tsm",
+  "name": "tsmc",
   "version": "0.0.1",
-  "description": "Compiles TypeScript modules defined using tsm (typescript module definition)",
-  "bin": "./bin/tsm.js",
-  "main": "lib/tsm.js",
+  "description": "Compiles TypeScript Modules defined using tsm (typescript module definition)",
+  "bin": "./bin/tsmc",
+  "main": "lib/tsmc.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/theblacksmith/tsm.git"
+    "url": "https://github.com/theblacksmith/tsmc.git"
   },
   "keywords": [
     "TypeScript",
@@ -19,9 +19,9 @@
   "author": "The Blacksmith (a.k.a. Saulo Vallory)",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/theblacksmith/tsm/issues"
+    "url": "https://github.com/theblacksmith/tsmc/issues"
   },
-  "homepage": "https://github.com/theblacksmith/tsm",
+  "homepage": "https://github.com/theblacksmith/tsmc",
   "dependencies": {
     "typescript-compiler": "~0.9.1",
     "underscore": "~1.5.2",
@@ -38,10 +38,12 @@
   },
   "tsm": {
     "src": [
-      "main.js",
       "lib/**/*.ts",
       "!lib/**/*.d.ts"
     ],
+    "options": {
+      "out": "lib/tsmc.js"
+    },
     "submodules": {},
     "dependencies": {}
   },
