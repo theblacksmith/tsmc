@@ -37,13 +37,29 @@
 <p><code>tsmc</code> is a <a href="http://typescriptlang.org">TypeScript</a> module compiler. It's a tool to tackle complexity of large apps allowing you to define the app's modules and have them compiled and agregated into supermodules at your will.</p>
 
 <h2>
+<a name="what-problem-does-it-solve" class="anchor" href="#what-problem-does-it-solve"><span class="octicon octicon-link"></span></a>What problem does it solve?</h2>
+
+<p>If all your typescrit files are in the same project on VS, you have two options: 
+either compile each <code>ts</code> file to a <code>js</code> file or bundle everyhing in a single javascript. There is no middle ground.
+It does not matter if you are using internal or external modules, and the same goes for manual compilation, you either
+set <code>--out</code> or <code>--out-dir</code>.</p>
+
+<h2>
 <a name="why-should-i-use-it" class="anchor" href="#why-should-i-use-it"><span class="octicon octicon-link"></span></a>Why should I use it?</h2>
 
-<p>If you have a medium to large sized app or library that you want to compile both broken down by modules and to a single file, then <code>tsmc</code> is the right tool for the job.</p>
+<p>Personally, I hate when I have to load a bunch of stuff I'm not going to use. 
+So, if you have a medium to large sized app or library, please, break it down by modules so your users can get <strong>only</strong>
+what they want. Of course, a have-it-all package is also handy sometimes. If you decide to do that,
+then <code>tsmc</code> is the right tool for the job.</p>
 
-<p><code>tsmc</code> allows you to configure multiple module definitions (which will work as compilation targets) to generate diferent combinations of your source code.</p>
+<h2>
+<a name="how-does-tsmc-help-me" class="anchor" href="#how-does-tsmc-help-me"><span class="octicon octicon-link"></span></a>How does <code>tsmc</code> help me?</h2>
 
-<p>As an example, lets say you are creating a component based javascript framework, and you have the following module structure:</p>
+<p><code>tsmc</code> allows you to configure multiple module definitions (which will work as compilation targets) to generate 
+diferent combinations of your source code.</p>
+
+<p>As an example, lets say you are creating a component based javascript framework, and you have the following 
+module structure:</p>
 
 <pre><code>AwesomeJS
   - ui
@@ -56,7 +72,8 @@
   - ajax
 </code></pre>
 
-<p>Now, let's say you want every submodule available separately as well as each group and a package with the entire framework. The following <code>tsmc</code> config would give it you:</p>
+<p>Now, let's say you want every submodule available separately, as well as each namespace and a package 
+with your entire framework. The following <code>tsmc</code> config would give it you:</p>
 
 <pre><code>{
   "name": "awesomejs"
